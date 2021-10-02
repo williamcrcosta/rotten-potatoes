@@ -49,7 +49,7 @@ jobs:
         with: 
           images: williamcrcosta/rotten-potatoes:${{ github.run_number }}
           manifests: |
-            k8s/deployments.yml
+            k8s/deployment.yml
           
           
     
